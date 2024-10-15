@@ -1,0 +1,18 @@
+h1{
+    color:blue;
+    text-decoration:underline;
+}
+h4{
+    color:red;
+
+}
+button{
+    color:red;
+    background-color: yellow;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.328);
+}

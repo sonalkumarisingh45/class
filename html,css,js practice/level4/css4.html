@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation,transition & transformation</title>
+    <style>
+        .pseudo
+        {
+            height: 25px;
+            width:100px;
+            background-color:#6d8b22;
+            border-radius: 10px;
+            transition-property: all;
+            transition-duration: 4s;
+            transition-delay :1s ;
+        }
+        .pseudo:hover{
+            background-color: yellow;
+            height: 30px;
+            width: 150px;
+            border-radius: 5px;
+
+        }
+       .pseudo:active{
+        
+        height:30px;
+        width: 150px;
+        background-color: rgb(128, 128, 232);
+       }
+    </style>
+</head>
+<body>
+    <head>
+        <button class="pseudo">Learn pseudo</button>
+
+    </head>
+    
+</body>
+</html>

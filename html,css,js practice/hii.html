@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Online Mobile Shop</title>
+  <link rel="stylesheet" href="hii.css">
+</head>
+<body>
+  <header>
+    <h1>Online Mobile Shop</h1>
+  </header>
+
+  <main>
+    <section class="products" id="product-list">
+      <h2>Available Products</h2>
+      <div class="product" onclick="showDetails('Phone A', '$500', 'Phone A is an excellent budget smartphone.')">
+        <h3>Phone A</h3>
+        <p>Price: $500</p>
+      </div>
+      <div class="product" onclick="showDetails('Phone B', '$700', 'Phone B has a great camera and performance.')">
+        <h3>Phone B</h3>
+        <p>Price: $700</p>
+      </div>
+      <div class="product" onclick="showDetails('Phone C', '$1000', 'Phone C is a premium smartphone with all the features.')">
+        <h3>Phone C</h3>
+        <p>Price: $1000</p>
+      </div>
+    </section>
+
+    <section class="product-details" id="product-details">
+      <h2>Product Details</h2>
+      <p id="product-name">Click on a product to see the details</p>
+      <p id="product-price"></p>
+      <p id="product-description"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Online Mobile Shop</p>
+  </footer>
+
+  <script src="hii.js"></script>
+</body>
+</html>

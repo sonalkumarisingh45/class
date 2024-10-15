@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: rgba(128, 128, 128, 0.254);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    display: inline;
+    margin: 50px;
+    font-size: 18PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    
+   }
+   #parts{
+    margin: 0;
+    padding:0;
+    border:2px solid black;
+
+
+  }
+  .parts{
+    height: 50%;
+    width: 50%;
+    
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .cotainer{
+            background-color: red;
+            height: 700px;
+            width: 900px;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);   
+            row-gap: 12px;
+            column-gap: 12px;
+        }
+        .item{
+            background-color: yellow;
+           /* height: 122px;
+            width:122px;*/
+        }
+        .item1
+        {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cotainer">
+        <div class="item item1">Hii, this is sonal ,we're gonna learn grid in css.      </div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+
+
+    </div>
+</body>
+</html>

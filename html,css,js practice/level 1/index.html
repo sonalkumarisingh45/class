@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--here i'm learning some about html where i'll be learning semantics that means using tags in a format
+   there is three part of a body tag header>>main>>footer -->
+   <!--header tag contains the title of the page-->
+   <h2>using header tag</h2>
+   <header><h2>This is my header tag</h2>
+            <!--navigation tag is used to link some pages on your own website like i have created four pages for my website so for linking them together i'll use navigation tag.it is used in header tag-->
+            <nav>
+                <a href="#Home">Home</a><br>
+                <a href="#About">About</a>
+            </nav>
+       
+
+   </header><br><hr>
+   <!--main tag could contain the tags like section-->
+   <h2>using main tag</h2>
+   <main>This is main tag which basically contains the content of the page like subjects,aim etc.</main><br>
+   <main>
+    
+    <section><h2>Home</h2>
+    <p id="Home">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt id porro cumque ad et, est incidunt autem delectus magnam.</p></section>
+    <section><h2>Placements</h2></section><br>
+    <h2>using article tag</h2>
+    <!--article is used to write some articles in html which should be written in main tag -->
+
+        <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere architecto provident, expedita illo adipisci vero voluptatibus. Tenetur exercitationem necessitatibus facere placeat. Corrupti quisquam aut odio? Perspiciatis expedita incidunt numquam consequatur sunt commodi sint? Ex minus magni assumenda quis laudantium modi sunt quod laboriosam eaque. Ducimus dignissimos modi consequatur quae illum.</article>
+        <h2>using aside tag</h2>
+        <!--we use aside tag to show that the content isn't that important-->
+        <aside>The content isn't that important reading or leaving is optional</aside><hr>
+        <!--using div tag which is a block elements contains the whole width ,it's used as a container-->
+        <h2>using  div tag</h2>
+        <div>
+            <!--here i'll make some ordered and unordered lists -->
+            <h4>using ordered list</h4>
+            <ol type="A">
+                <h4>Section</h4>
+                <li>Section A</li>
+                <li>Section B</li>
+                <li>Section C</li>
+            </ol>
+            <ol type="1">
+                <h4>Class</h4>
+                <li>Class -9<sup>th</sup></li>
+                <li>Class-10<sup>th</sup></li>
+                <li>Class-11<sup>th</sup></li>
+            </ol>
+            <h4>using unordered list</h4>
+            <ul>
+                <h4>Subjects</h4>
+                <li>Hindi</li>
+                <li>English</li>
+                <li>Maths</li>
+            </ul>
+        </div>
+        <div>
+            <!--going to make a table using some tags-->
+            <h2>Table</h2>
+            <table border="2">
+                <!--caption used for the heading of a table-->
+                <caption>Student Information</caption>
+                <tr>
+                    <th colspan="3">here i'm using colspan to merge table head.</th>
+                </tr>
+                <!--table row -->
+                <tr>
+                    <!--table heading-->
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                </tr>
+                <tr>
+                    <!--table data-->
+                    <td>Sonal</td>
+                    <td>20</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>Sneha</td>
+                    <td>20</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>Abhinav</td>
+                    <td>23</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td colspan="3">here i'm using colspan to merge data.</td>
+                </tr>
+            </table>
+        </div>
+        <span>
+            <h2>formls tag</h2>
+            <form action="/Desktop/book1">
+                <!--these all are inline elements-->
+                text:<input type="text" name=" name" placeholder="type name"><br>
+                number:<input type="number" name="contact number" placeholder="type contact no."><br>
+                email-id:<input type="text" name="email id"><br>
+                password:<input type="password"><br>
+                <label for="date">Date:</label><br>
+                <input type="date"><br>
+               File: <input type="file"><br>
+               color:<input type="color"><br>
+               Price range:<input type="range"><br>
+               Button<input type="button" value="poked">
+               submit:<input type="submit"><br>
+            </form>
+<form>
+    <!--radio button used as multiple choice question in which one option have to be choose-->
+    <h2>radio button</h2>
+    <label for="male">Male:</label>
+    <input type="radio" value="male" name="gender" id="male"><br>
+    <label for="female">Female:</label>
+    <input type="radio" value="female" name="gender" id="female"><br>
+    <label for="other">Others:</label>
+    <input type="radio" value="other" name="gender" id="other"><br>
+    <h2>Checkbox</h2>
+    <!--used for choosing multiple options.-->
+    <label for="male">Male:</label>
+    <input type="checkbox" value="male" name="gender" id="male"><br>
+    <label for="female">Female:</label>
+    <input type="checkbox" value="female" name="gender" id="female"><br>
+    <label for="other">Others:</label>
+    <input type="checkbox" value="other" name="gender" id="other"><br>
+    
+</form>
+<form>
+    <h2>Select</h2>
+    <!--select have the much more option in which i could choose 1 of them for example list of countries.-->
+    <label for="Country">Select your Country.</label><br>
+    <select name="Country" id="Country">
+    <option value="India">India</option>
+        <option value="America">America</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="England">England </option>
+        <option value="Other">Other</option>
+    </select>
+</form>
+        </span>
+        <hr>
+        <h2>text area,used to define multiple lines.</h2>
+        <textarea rows="10" columns="100">default text here</textarea><hr>
+    <div>
+        <h2>Iframe tag,is used to include the other contents or website into your website</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=agwoursN22Gxul6B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+        
+    </div>
+     <!--footer tag-->
+
+        <footer id="About">  this is footer which also used in body tag to show last content or any alerts.</footer>
+   </main>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+For notes.--
+
+*   the window object represents an open window in a browser.it is browser's object(not JavaScript's ) & is automatically created by browser.
+it is a global object with lots of properties & methods.
+*   What is DOM?
+When a web page is loaded,the browser creates a Document Object Model(DOM) of the page.
+Windo--Document--html---(1)head -(meta ,meta , title ,link )(2) Body --1.div(img,h1,p,div)--2.script
+
+DOM MANIPULATION METHODS.-----
+(1) SELECTING WITH ID.
+document.getElementById("myId).
+
+(2)SELECTING WITH CLASS.
+document.getElementByClassName("myClass)
+
+(3)SELECTING WITH TAG
+document.getElementByTagName("p")
+
+QUERY SELECTOR---
+
+(1)document.querySelector("myId/myClass/tag")//returns first element.
+
+(2)document.querySelectorAll("myId/myClass/tag")//returns a NodeList
+
+PROPERTIES-----
+
+*   tagName:returns tag for element nodes.
+*   innerText:returns the text cotent of the element and all its children.
+*   innerHTML:returns the plain text or  HTML contents in the element.
+*   textContent:returns textual content even for hidden elements.
+
+
+
+

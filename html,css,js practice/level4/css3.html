@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        header{
+            background-color: yellow;
+            height: 30px;
+                   
+            
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        #image_container{
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            align-items: center;
+            height: 200px;
+        }
+        .box{
+            height: 80px;
+            width: 80px;
+            border: 2px solid red;
+        }
+        #boxes{
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            height: 90px;
+            width: 400px;
+        }
+        #box3{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <header >
+             <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">HELP</a>
+            
+        </nav>
+        
+    </header>
+    <main>
+        <div id="image_container">
+        <img src="image.jpeg" alt="image of Bharat">
+        </div>
+        <div id="boxes">
+            <div id="box1" class="box">box1</div>
+            <div id="box2" class="box">box1</div>
+
+            <div id="box3" class="box">box1</div>
+            
+            
+
+        </div>
+    </main>
+</body>
+</html>
